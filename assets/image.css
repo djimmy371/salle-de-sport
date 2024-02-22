@@ -1,0 +1,62 @@
+#hero {
+    background: url(img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    height: 100vh;
+    font-family: Manrope;
+}
+
+.texte-titre {
+    margin-top: 150px;
+    color: white;
+}
+
+.accueil-photos {
+    padding: 50px;
+}
+
+.accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#content {
+    width: 50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav a {
+    color: white;
+    font-size: 1.6vw;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.800);
+    border-radius: 25px;
+    padding: 6px;
+    margin-bottom: 1rem;
+  }
+  header {
+    background: url("img/image6.2.jpg");
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column-reverse;
+    transition: 1s ease;
+  }
+  
+  .translate {
+    transition: 1s ease;
+    height: 130px!important;
+  }
